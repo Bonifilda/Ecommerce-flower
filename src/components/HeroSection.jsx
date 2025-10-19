@@ -2,7 +2,7 @@ import React from 'react';
 
 const HeroSection = ({ title, subtitle, description, buttonText, onButtonClick }) => {
   return (
-    <section className="bg-gradient-to-r from-blue-500 to-purple-600 text-white py-20">
+    <section className="bg-gradient-to-r from-blue-500 to-pink-600 text-white py-20">
       <div className="max-w-7xl mx-auto px-4 text-center">
         <h1 className="text-4xl md:text-6xl font-bold mb-4">{title}</h1>
         <p className="text-xl md:text-2xl mb-6">{subtitle}</p>
