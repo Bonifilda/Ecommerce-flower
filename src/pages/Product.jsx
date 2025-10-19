@@ -54,7 +54,7 @@ const Product = () => {
       id: 6,
       name: "Summer Special",
       price: "22,000 RWF",
-      image: "https://via.placeholder.com/300x200/FFD700/FFFFFF?text=Summer+Special",
+      image: "/image/bestflower.jpg",
       category: "Seasonal"
     }
   ];

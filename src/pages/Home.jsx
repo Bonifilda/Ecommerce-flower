@@ -21,58 +21,58 @@ const Home = () => {
   const featuredProducts = [
     {
       id: 1,
-      name: "Rwandan Roses",
+      name: "Flower1.",
       price: "15,000 RWF",
-      image: "https://via.placeholder.com/300x200/FF69B4/FFFFFF?text=Roses",
+      image: "Flower1.jpg",
       category: "Roses"
     },
     {
       id: 2,
-      name: "African Lilies",
+      name: "best",
       price: "12,000 RWF",
-      image: "https://via.placeholder.com/300x200/9370DB/FFFFFF?text=Lilies",
+      image: "best.jpg",
       category: "Lilies"
     },
     {
       id: 3,
-      name: "Tropical Orchids",
+      name: "popsicle",
       price: "25,000 RWF",
-      image: "https://via.placeholder.com/300x200/DA70D6/FFFFFF?text=Orchids",
+      image: "popsicle.jpg",
       category: "Orchids"
     },
     {
       id: 4,
       name: "Sunflower Bouquet",
       price: "18,000 RWF",
-      image: "https://via.placeholder.com/300x200/FFD700/FFFFFF?text=Sunflowers",
+      image: "sunflower.jpg",
       category: "Seasonal"
     },
     {
       id: 5,
-      name: "White Peace Lilies",
+      name: "pexels-",
       price: "20,000 RWF",
-      image: "https://via.placeholder.com/300x200/FFFFFF/000000?text=Peace+Lilies",
+      image: "good.jpg",
       category: "Lilies"
     },
     {
       id: 6,
-      name: "Mixed Flower Basket",
+      name: "Mixed Flower",
       price: "30,000 RWF",
-      image: "https://via.placeholder.com/300x200/FF6347/FFFFFF?text=Mixed+Basket",
+      image: "mixed flower.jpg",
       category: "Mixed"
     },
     {
       id: 7,
-      name: "Gerbera Daisies",
+      name: "best",
       price: "14,000 RWF",
-      image: "https://via.placeholder.com/300x200/FF4500/FFFFFF?text=Daisies",
+      image: "best.jpg",
       category: "Daisies"
     },
     {
       id: 8,
-      name: "Tulip Collection",
+      name: "sunflower",
       price: "22,000 RWF",
-      image: "https://via.placeholder.com/300x200/FF1493/FFFFFF?text=Tulips",
+      image: "sunflower.jpg",
       category: "Tulips"
     }
   ];
