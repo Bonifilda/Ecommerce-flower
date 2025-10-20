@@ -13,16 +13,16 @@ const Product = () => {
     // Roses Category
     {
       id: 1,
-      name: "Red Roses Bouquet",
+      name: "flower.jpg",
       price: "15,000 RWF",
-      image: "https://via.placeholder.com/300x200/FF0000/FFFFFF?text=Red+Roses",
+      image: "flower2.jpg",
       category: "Roses"
     },
     {
       id: 2,
-      name: "Pink Roses",
+      name: "flower3",
       price: "12,000 RWF",
-      image: "https://via.placeholder.com/300x200/FF69B4/FFFFFF?text=Pink+Roses",
+      image: "flower3.jpg",
       category: "Roses"
     },
     
@@ -31,14 +31,14 @@ const Product = () => {
       id: 3,
       name: "White Lilies",
       price: "18,000 RWF",
-      image: "https://via.placeholder.com/300x200/FFFFFF/000000?text=White+Lilies",
+      image: "flower4.jpg",
       category: "Lilies"
     },
     {
       id: 4,
       name: "Tiger Lilies",
       price: "20,000 RWF",
-      image: "https://via.placeholder.com/300x200/FF4500/FFFFFF?text=Tiger+Lilies",
+      image: "flower5.jpg",
       category: "Lilies"
     },
     
@@ -47,14 +47,14 @@ const Product = () => {
       id: 5,
       name: "Spring Mix",
       price: "25,000 RWF",
-      image: "https://via.placeholder.com/300x200/32CD32/FFFFFF?text=Spring+Mix",
+      image: "flower6.jpg",
       category: "Seasonal"
     },
     {
       id: 6,
       name: "Summer Special",
       price: "22,000 RWF",
-      image: "/image/bestflower.jpg",
+      image: "flower7.jpg",
       category: "Seasonal"
     }
   ];
