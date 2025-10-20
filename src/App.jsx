@@ -11,19 +11,19 @@ import "./App.css";
 function App() {
   return (
     <Router>
-  <div className="min-h-screen flex flex-col">
-    <Navbar />
-    <main className="flex-grow">
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/product" element={<Product />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
-    </main>
-    <Footer />
-  </div>
-</Router>  
+      <div className="min-h-screen flex flex-col">
+        <Navbar />
+        <main className="flex-grow">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/products" element={<Product />} /> {/* ✅ fixed */}
+            <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+        </main>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 

@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import HeroSection from "../components/HeroSection"; // ✅ correct
-import ProductCard from "../components/ProductCard"; // ✅ correct
+import HeroSection from "../components/HeroSection"; 
+import ProductCard from "../components/ProductCard"; 
 
 
 const Home = () => {
@@ -11,13 +11,14 @@ const Home = () => {
   const handleShopNow = () => {
     navigate('/products');
   };
+  
 
   // Event handling for Add to Cart
   const handleAddToCart = (productName) => {
     alert(`Added ${productName} to cart!`); // Event handling demonstration
   };
 
-  // Featured products data (at least 8)
+
   const featuredProducts = [
     {
       id: 1,
@@ -84,9 +85,11 @@ const Home = () => {
         title="Welcome to FlowerShop Rwanda"
         subtitle="Beautiful Flowers, Grown with Love"
         description="Fresh, locally-grown flowers delivered across Kigali and beyond. Celebrate life's special moments with the beauty of Rwandan flora."
+       
         buttonText="Shop Now"
         onButtonClick={handleShopNow} // Event handling via props
-      />
+      /> 
+      
 
       {/* Featured Products Section */}
       <section className="py-16 bg-gray-100">
