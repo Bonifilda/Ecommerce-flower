@@ -27,12 +27,6 @@ const Home = () => {
 
   return (
     <div>
-      {/* ✅ Add a test message to see if home page loads */}
-      <div className="bg-blue-100 p-4 text-center">
-        <h1 className="text-2xl font-bold text-blue-800">Welcome to FlowerShop Rwanda! 🌸</h1>
-        <p>If you can see this message, your home page is working!</p>
-      </div>
-
       <HeroSection
         title="Welcome to FlowerShop Rwanda"
         subtitle="Beautiful Flowers, Grown with Love"

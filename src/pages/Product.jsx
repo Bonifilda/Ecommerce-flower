@@ -1,48 +1,4 @@
-// import React from 'react';
-// import ProductCard from '../components/ProductCard';
-// import { products } from '../data/products'; // Add this import
-
-// const Product = () => {
-//   // Event handling for Add to Cart
-//   const handleAddToCart = (productName) => {
-//     console.log(`Added ${productName} to cart`); 
-//     alert(`Added ${productName} to cart!`);
-//   };
-
-//   // Group products by category
-//   const productsByCategory = products.reduce((acc, product) => {
-//     if (!acc[product.category]) {
-//       acc[product.category] = [];
-//     }
-//     acc[product.category].push(product);
-//     return acc;
-//   }, {});
-
-//   return (
-//     <div className="py-8">
-//       <div className="max-w-7xl mx-auto px-4">
-//         <h1 className="text-4xl font-bold text-center mb-12">Our Products</h1>
-        
-//         {Object.entries(productsByCategory).map(([category, categoryProducts]) => (
-//           <div key={category} className="mb-12">
-//             <h2 className="text-2xl font-bold mb-6 text-gray-800">{category}</h2>
-//             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-//               {categoryProducts.map(product => (
-//                 <ProductCard 
-//                   key={product.id}
-//                   product={product}
-//                   onAddToCart={handleAddToCart}
-//                 />
-//               ))}
-//             </div>
-//           </div>
-//         ))}
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default Product;
+//  export default Product;
 import React from 'react';
 import ProductCard from '../components/ProductCard';
 
